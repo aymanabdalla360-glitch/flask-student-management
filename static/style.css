@@ -1,0 +1,795 @@
+/* ==========================================
+   التنسيق العام
+   ========================================== */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    direction: rtl;
+
+    margin: 0;
+
+    padding: 15px;
+
+    background-color: #f5f5f5;
+}
+
+
+/* ==========================================
+   العناوين
+   ========================================== */
+
+h1 {
+
+    text-align: center;
+
+    margin: 25px 0;
+}
+
+h2 {
+
+    margin-top: 30px;
+}
+
+
+/* ==========================================
+   شريط التنقل
+   ========================================== */
+
+nav {
+
+    background-color: #eeeeee;
+
+    padding: 12px;
+
+    text-align: center;
+
+    margin-bottom: 25px;
+
+    border-radius: 8px;
+}
+
+
+/* روابط شريط التنقل */
+
+nav a {
+
+    display: inline-block;
+
+    margin: 0 8px;
+
+    padding: 8px 12px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    border-radius: 5px;
+}
+
+
+/* عند مرور الماوس */
+
+nav a:hover {
+
+    text-decoration: underline;
+}
+
+
+/* ==========================================
+   المحتوى الرئيسي
+   ========================================== */
+
+.container {
+
+    margin-top: 30px;
+
+    text-align: center;
+}
+
+
+/* ==========================================
+   الفقرات
+   ========================================== */
+
+p {
+
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+
+/* ==========================================
+   نموذج الإضافة والتعديل
+   ========================================== */
+
+form {
+
+    width: 100%;
+
+    max-width: 450px;
+
+    margin: 25px auto;
+}
+
+
+/* عناوين الحقول */
+
+label {
+
+    display: block;
+
+    margin-top: 15px;
+
+    margin-bottom: 5px;
+}
+
+
+/* ==========================================
+   حقول الإدخال
+   ========================================== */
+
+input,
+select {
+
+    width: 100%;
+
+    padding: 12px;
+
+    box-sizing: border-box;
+
+    font-size: 16px;
+
+    border: 1px solid #999;
+
+    border-radius: 5px;
+}
+
+
+/* ==========================================
+   أزرار النموذج
+   ========================================== */
+
+form button {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 15px;
+
+    font-size: 17px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+
+/* ==========================================
+   البحث
+   ========================================== */
+
+/* ==========================================
+   صندوق البحث
+   ========================================== */
+
+.search-box {
+
+    width: 100%;
+
+    text-align: center;
+
+    margin: 20px 0;
+}
+
+
+.search-box form {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 8px;
+
+    max-width: 500px;
+
+    margin: auto;
+}
+
+
+.search-box input {
+
+    width: 100%;
+
+    max-width: 350px;
+
+    box-sizing: border-box;
+}
+
+
+.search-box button {
+
+    padding: 10px 20px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    white-space: nowrap;
+}
+
+
+.search-box input {
+
+    width: 300px;
+}
+
+
+/* ==========================================
+   حاوية جدول الطلاب
+   ========================================== */
+
+.table-container {
+
+    width: 100%;
+
+    overflow-x: auto;
+
+    box-sizing: border-box;
+
+    margin-top: 20px;
+}
+
+
+/* ==========================================
+   جدول الطلاب
+   ========================================== */
+
+.table-container table {
+
+    width: 100%;
+
+    min-width: 700px;
+
+    border-collapse: collapse;
+
+    background-color: white;
+}
+
+
+/* ==========================================
+   خلايا الجدول
+   ========================================== */
+
+.table-container th,
+.table-container td {
+
+    padding: 10px;
+
+    text-align: center;
+
+    border: 1px solid #cccccc;
+}
+
+
+/* ==========================================
+   رأس الجدول
+   ========================================== */
+
+.table-container th {
+
+    background-color: #eeeeee;
+}
+
+
+/* ==========================================
+   منطقة الإجراءات
+   ========================================== */
+
+.actions {
+
+    white-space: nowrap;
+}
+
+
+/* ==========================================
+   زر التعديل
+   ========================================== */
+
+.edit-button {
+
+    display: inline-block;
+
+    padding: 8px 14px;
+
+    margin: 3px;
+
+    text-decoration: none;
+
+    border: 1px solid #333;
+
+    border-radius: 5px;
+}
+
+
+/* ==========================================
+   زر الحذف
+   ========================================== */
+
+.delete-button {
+
+    display: inline-block;
+
+    padding: 8px 14px;
+
+    margin: 3px;
+
+    text-decoration: none;
+
+    border: 1px solid #333;
+
+    border-radius: 5px;
+}
+
+
+/* ==========================================
+   زر الإضافة والعودة
+   ========================================== */
+
+.button,
+.add-button {
+
+    display: inline-block;
+
+    padding: 10px 20px;
+
+    margin: 10px;
+
+    text-decoration: none;
+
+    border: 1px solid #333;
+
+    border-radius: 5px;
+}
+
+
+/* ==========================================
+   رسالة الخطأ
+   ========================================== */
+
+.error {
+
+    color: red;
+
+    text-align: center;
+
+    margin-bottom: 15px;
+}
+
+
+/* ==========================================
+   حاوية كروت لوحة التحكم
+   ========================================== */
+
+.dashboard {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+    margin-top: 25px;
+}
+
+
+/* ==========================================
+   كروت لوحة التحكم
+   ========================================== */
+
+.dashboard-card {
+
+    /* عرض الكارت */
+    width: 210px;
+
+    /* ارتفاع الكارت */
+    min-height: 160px;
+
+    /* المسافة الداخلية */
+    padding: 18px;
+
+    /* لا نضع margin هنا
+       لأن gap هو المسؤول عن المسافة */
+
+    margin: 0;
+
+    /* حساب padding داخل العرض */
+    box-sizing: border-box;
+
+    /* خلفية الكارت */
+    background-color: white;
+
+    /* تدوير الحواف */
+    border-radius: 12px;
+
+    /* الظل */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+
+    /* توسيط المحتوى */
+    text-align: center;
+}
+
+
+/* ==========================================
+   عنوان الكارت
+   ========================================== */
+
+.dashboard-card h2 {
+
+    margin: 0 0 10px 0;
+
+    font-size: 21px;
+}
+
+
+/* ==========================================
+   الرقم أو الأيقونة داخل الكارت
+   ========================================== */
+
+.dashboard-card p {
+
+    margin: 8px 0;
+
+    font-size: 32px;
+
+    font-weight: bold;
+}
+
+
+/* ==========================================
+   زر الكارت
+   ========================================== */
+
+.card-button {
+
+    display: inline-block;
+
+    padding: 8px 15px;
+
+    margin-top: 5px;
+
+    text-decoration: none;
+
+    border-radius: 7px;
+
+    font-size: 16px;
+}
+/* ==========================================
+   إجراءات صفحة الطلاب
+   ========================================== */
+
+.students-actions {
+
+    text-align: center;
+
+    margin: 15px 0;
+}
+/* ==========================================
+   رسالة النجاح
+   ========================================== */
+
+.success {
+
+    max-width: 500px;
+
+    margin: 15px auto;
+
+    padding: 12px;
+
+    text-align: center;
+
+    background-color: #e8f5e9;
+
+    border: 1px solid #4caf50;
+
+    border-radius: 8px;
+
+    font-size: 17px;
+
+    font-weight: bold;
+}
+/* ==========================================
+   رسالة النجاح
+   ========================================== */
+
+.success {
+
+    /* تحديد عرض الرسالة */
+    max-width: 500px;
+
+    /* توسيط الرسالة أفقيًا */
+    margin: 15px auto;
+
+    /* المسافة الداخلية */
+    padding: 12px;
+
+    /* توسيط النص */
+    text-align: center;
+
+    /* لون خلفية الرسالة */
+    background-color: #e8f5e9;
+
+    /* إطار الرسالة */
+    border: 1px solid #4caf50;
+
+    /* تدوير الحواف */
+    border-radius: 8px;
+
+    /* حجم الخط */
+    font-size: 17px;
+
+    /* جعل الخط عريضًا */
+    font-weight: bold;
+}
+
+/* ==========================================
+   Responsive Design
+   الشاشات الصغيرة
+   ========================================== */
+
+@media (max-width: 600px) {
+
+
+    /* ==========================================
+       الصفحة
+       ========================================== */
+
+    body {
+
+        padding: 10px;
+    }
+
+
+    /* ==========================================
+       شريط التنقل
+       ========================================== */
+
+    nav {
+
+        padding: 8px;
+
+        margin-bottom: 20px;
+    }
+
+
+    nav a {
+
+        display: block;
+
+        width: 100%;
+
+        box-sizing: border-box;
+
+        margin: 4px 0;
+
+        padding: 9px;
+    }
+
+
+    /* ==========================================
+       العناوين
+       ========================================== */
+
+    h1 {
+
+        font-size: 28px;
+
+        margin: 20px 0;
+    }
+
+
+    /* ==========================================
+       الفقرات
+       ========================================== */
+
+    p {
+
+        font-size: 16px;
+    }
+
+
+    /* ==========================================
+       البحث
+       ========================================== */
+
+    .search-box input {
+
+        width: 100%;
+    }
+
+
+    .search-box button {
+
+        width: 100%;
+
+        margin-top: 10px;
+    }
+
+
+    /* ==========================================
+       جدول الطلاب
+       ========================================== */
+
+    .table-container {
+
+        overflow-x: auto;
+
+        -webkit-overflow-scrolling: touch;
+    }
+
+
+    .table-container table {
+
+        min-width: 700px;
+    }
+
+
+    .table-container th,
+    .table-container td {
+
+        padding: 8px;
+
+        font-size: 14px;
+    }
+
+
+    /* ==========================================
+       أزرار التعديل والحذف
+       ========================================== */
+
+    .edit-button,
+    .delete-button {
+
+        display: block;
+
+        margin: 5px 0;
+    }
+
+
+    /* ==========================================
+       النماذج
+       ========================================== */
+
+    form {
+
+        width: 100%;
+
+        margin-top: 20px;
+    }
+
+
+    input,
+    select {
+
+        font-size: 16px;
+
+        padding: 12px;
+    }
+
+
+    form button {
+
+        width: 100%;
+
+        padding: 13px;
+    }
+
+
+    /* ==========================================
+       المحتوى الرئيسي
+       ========================================== */
+
+    .container {
+
+        margin-top: 20px;
+    }
+
+
+    /* ==========================================
+       حاوية الكروت - الهاتف
+       ========================================== */
+
+    .dashboard {
+
+        gap: 12px;
+
+        margin-top: 20px;
+    }
+
+
+    /* ==========================================
+       كروت لوحة التحكم - الهاتف
+       ========================================== */
+
+    .dashboard-card {
+
+        width: 170px;
+
+        min-height: 145px;
+
+        padding: 12px;
+
+        margin: 0;
+    }
+
+
+    /* ==========================================
+       عنوان الكارت - الهاتف
+       ========================================== */
+
+    .dashboard-card h2 {
+
+        font-size: 18px;
+
+        margin: 0 0 8px 0;
+    }
+
+
+    /* ==========================================
+       الرقم أو الأيقونة - الهاتف
+       ========================================== */
+
+    .dashboard-card p {
+
+        font-size: 27px;
+
+        margin: 6px 0;
+    }
+
+
+    /* ==========================================
+       زر الكارت - الهاتف
+       ========================================== */
+
+    .card-button {
+
+        font-size: 14px;
+
+        padding: 7px 10px;
+    }
+
+/* ==========================================
+   البحث - الهاتف
+   ========================================== */
+
+.search-box form {
+
+    display: block;
+
+    width: 100%;
+}
+
+
+.search-box input {
+
+    width: 100%;
+
+    max-width: none;
+}
+
+
+.search-box button {
+
+    width: 100%;
+
+    margin-top: 10px;
+}    
+
+}
